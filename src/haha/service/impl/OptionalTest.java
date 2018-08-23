@@ -1,3 +1,5 @@
+package haha.service.impl;
+
 import com.alibaba.fastjson.JSON;
 import com.sun.org.apache.xpath.internal.SourceTree;
 import com.sun.xml.internal.bind.v2.model.core.ID;

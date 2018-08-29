@@ -8,4 +8,20 @@ package haha.test1;
  */
 
 public class TryTest {
+    public static void main(String[] args) {
+
+        try {
+            System.out.println();
+            int i = 1;
+            i/=0;
+        } catch (Exception e) {
+            System.out.println("捕获到异常");
+            e.printStackTrace();
+        } finally {
+            System.out.println("进入finally处理");
+            int i= 1;
+            i/=0;
+            System.out.println("finally结束");
+        }
+    }
 }

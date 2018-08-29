@@ -11,7 +11,7 @@ public class TryTest {
     public static void main(String[] args) {
 
         try {
-            System.out.println();
+            System.out.println("测试");
             int i = 1;
             i/=0;
         } catch (Exception e) {

@@ -12,6 +12,7 @@ public class TryTest {
 
         try {
             System.out.println("测试");
+            System.out.println("测试");
             int i = 1;
             i/=0;
         } catch (Exception e) {
